@@ -1,5 +1,8 @@
-SRC_PATH=$(shell pwd)/src
-DEPS_PATH=$(shell pwd)/deps
+CWD=$(shell pwd)
+
+SRC_PATH=$(CWD)/src
+INCLUDE_PATH=$(CWD)/include
+DEPS_PATH=$(CWD)/deps
 
 UV_PATH=$(DEPS_PATH)/libuv
 LOGH_PATH=$(DEPS_PATH)/log.h
@@ -8,7 +11,7 @@ UV_LIB=$(UV_PATH)/out/Debug/libuv.a
 
 CC=cc
 CFLAGS=-c -O2 -Wall -std=c99
-INCLUDES=-I$(UV_PATH)/include/ -I/$(LOGH_PATH)/
+INCLUDES=-I$(UV_PATH)/include/ -I/$(LOGH_PATH)/ -I/$(INCLUDE_PATH)/
 LIBS=
 
 uname_S=$(shell uname -s)
@@ -38,9 +41,9 @@ $(UV_PATH):
 	git submodule update --init
 
 $(UV_LIB): $(UV_PATH)
-	cd $(UV_PATH) && 																																																\
+	cd $(UV_PATH) &&                                                                                                \
 	test -d ./build/gyp || (mkdir -p ./build && git clone https://git.chromium.org/external/gyp.git ./build/gyp) && \
-	./gyp_uv.py -f make && 																																													\
+	./gyp_uv.py -f make &&                                                                                          \
 	$(MAKE) -C ./out
 
 
