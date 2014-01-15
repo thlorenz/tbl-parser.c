@@ -1,0 +1,32 @@
+:Data_list: 20131231_Gp_mag_1m.txt
+:Created: 2014 Jan 01 0010 UTC
+# Prepared by the U.S. Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Please send comments and suggestions to SWPC.Webmaster@noaa.gov 
+# 
+# Label: Hp component = perpendicular to the satellite orbital plane or
+#           parallel to the Earth's spin axis
+# Label: He component = perpendicular to Hp and directed earthwards
+# Label: Hn component = perpendicular to both Hp and He, directed eastwards
+# Label: Total Field  = 
+# Units: nanotesla (nT)
+# Source: GOES-13
+# Location: W075
+# Missing data: -1.00e+05
+#
+#         1-minute GOES-13 Geomagnetic Components and Total Field
+#
+#                 Modified Seconds
+# UTC Date  Time   Julian  of the
+# YR MO DA  HHMM    Day     Day        Hp          He          Hn    Total Field
+#-------------------------------------------------------------------------------
+2013 12 31  0000   56657      0     8.29e+01    3.31e+01   -4.33e-01    8.92e+01
+2013 12 31  0001   56657     60     8.27e+01    3.32e+01   -4.89e-01    8.91e+01
+2013 12 31  0002   56657    120     8.26e+01    3.31e+01   -4.70e-01    8.90e+01
+2013 12 31  0003   56657    180     8.25e+01    3.31e+01   -5.68e-01    8.89e+01
+2013 12 31  0004   56657    240     8.24e+01    3.31e+01   -5.16e-01    8.88e+01
+2013 12 31  0005   56657    300     8.25e+01    3.30e+01   -4.69e-01    8.88e+01
+2013 12 31  0006   56657    360     8.25e+01    3.30e+01   -4.45e-01    8.88e+01
+2013 12 31  0007   56657    420     8.23e+01    3.29e+01   -4.26e-01    8.86e+01
+2013 12 31  0008   56657    480     8.21e+01    3.29e+01   -3.99e-01    8.85e+01
+2013 12 31  0009   56657    540     8.21e+01    3.27e+01   -5.10e-01    8.84e+01
+2013 12 31  0010   56657    600     8.21e+01    3.27e+01   -5.38e-01    8.84e+01
