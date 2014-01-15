@@ -9,7 +9,23 @@ lib-cov
 
 pids
 logs
-results
-
-npm-debug.log
 node_modules
+
+*.xcodeproj
+deps
+.DS_Store
+
+# Object files
+*.o
+*.ko
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+*.dSYM
