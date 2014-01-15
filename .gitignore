@@ -29,3 +29,5 @@ deps
 *.so.*
 *.dylib
 *.dSYM
+
+tbl-parser

@@ -1,0 +1,4 @@
+-Ideps/libuv/include/
+-Ideps/log.h/
+-Wall
+-std=c99
